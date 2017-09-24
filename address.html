@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-touch-fullscreen" content="yes"/>
+	<meta name="apple-mobile-web-status-bar-style" content="black"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<title>移动端商城</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+</head>
+<body>
+	<nav id="nav">
+		<ul class="navlist">
+			<li id="n_0"><a href="index.html"><span ></span></a></li>
+			<li id="n_1"><a href="cart.html"><span></span></a><div class="cartnums" style="display:none;">0</div></li>
+			<li id="n_2"><a href="usercenter.html"><span  class="active"></span></a></li>
+			<li id="n_3"><a href="allproduct.html"><span></span></a></li> 
+		</ul>
+	</nav>
+	
+	<section class="addressinfo">
+		<ul class="addresscontent">
+			<li>
+				<p><input type="text" value="" name="consignee" id="consignee" placeholder="填写你的真实姓名" class="text"></p>
+			</li>
+			<li>
+				<div id="region">
+					<select name="sheng" id="s1"></select>
+					<select name="shi" id="s2"></select>
+					<select name="qu" id="s3"></select>
+				</div>
+			</li>
+			<li>
+				<p><input type="text" value="" name="address" id="addressdet" placeholder="详细地址（不必重复填写地区）" class="text"></p>
+			</li>
+			<li>
+				<p><input type="number" value="" name="phone_mob" id="phone_mob" class="text" placeholder="手机或电话"></p>
+			</li>
+			<li><input type="button" value="保存" class="submit_address"></li>
+		</ul>
+		<ul class="address_list">
+			<li>
+				<p><em class="name">张三</em>(<em class="phone">15588888888</em>)</p>
+				<p class="alladdress">四川省&nbsp;成都市&nbsp;双流县&nbsp;qwe</p>
+				<p class="new-line"><br></p>
+				<p class="address-action">
+					<span class="edit"><a href="#"><i class="edit_icon"></i>编辑</a></span>
+					<span class="delete"><a href="#" ><i class="delete_icon"></i>删除</a></span>
+				</p>
+			</li>
+
+			<li>
+				<p><em class="name">李四</em>(<em class="phone">15588888888</em>)</p>
+				<p class="alladdress">四川省&nbsp;成都市&nbsp;双流县&nbsp;qwe</p>
+				<p class="new-line"><br></p>
+				<p class="address-action">
+					<span class="edit"><a href="#"><i class="edit_icon"></i>编辑</a></span>
+					<span><a href="#" class="delete"><i class="delete_icon"></i>删除</a></span>
+				</p>
+			</li>
+		</ul>
+	</section>
+
+	<script src="script/libs/require.js" data-main="script/views/enterjs/mainconfig.js"></script>
+</body>
+
+</html>

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-#productul li {
+#productul li,ul {
   min-height:101%;
 }
 body, button, select, textarea, input, label, option, fieldset, legend {

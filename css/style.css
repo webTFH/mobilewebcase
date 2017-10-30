@@ -1,7 +1,4 @@
 @charset "UTF-8";
-#scrollAdd {
-  min-height:111%;
-}
 body, button, select, textarea, input, label, option, fieldset, legend {
   font-family: 微软雅黑E\8f6f\96c5\9ed1,Tahoma,Verdana;
   font-size: 12px;

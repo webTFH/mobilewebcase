@@ -1,7 +1,17 @@
+contentMerch = '<meta charset="UTF-8">\
+    <a href="%page%" class="item">\
+    <div class="fl">\
+    <p class="ptitle">%merchName%</p>\
+    <canvas data-src="%coverPath%" ></canvas>\
+	<div style="bottom:20px;position: relative;background-color: white">价格:<span style="color: #ff7301;background-color: white">%price%￥</span></div>\
+    <p class="bl" style="bottom:18px;position: relative"><span class="green" >%rowId%</span></p>\
+    </div>\
+    </a>';
+pagenumberGlobla = 0;
 define(function(require){
 	return commonObj = {
 		ajaxstatus: true,
-		pagesize:5,
+		pagesize:12,
 		loadCanvas:function(){
 			var imglength = $("#productul").find("canvas").length;
 			if (imglength >0 ){
@@ -25,15 +35,28 @@ define(function(require){
 		getData: function(pagenumber){
 			$.ajax({
 				type:"get",
-				url:"pices.html",
-				dataType: "text",
-				success: function(result){
-					$(".loaddiv").hide();
-					for(var i=0;i<10;i++){
-						commonObj.ajaxstatus = true;
-						commonObj.insertDiv(result);
-						commonObj.loadCanvas();
-					}
+				url:"/mobilewebcase/script/test.json",
+				dataType: "json",
+                data: {
+                    page:pagenumberGlobla,
+                    row:commonObj.pagesize
+                },
+				success: function(result) {
+                    if (result.length > 0) {
+						$(".loaddiv").hide();
+						for (var i = commonObj.pagesize*pagenumberGlobla; i < commonObj.pagesize*(pagenumberGlobla+1); i++) {
+							if(i < result.length) {
+                                commonObj.ajaxstatus = true;
+                                commonObj.insertDiv(contentMerch.replace("%coverPath%", result[i].coverPath)
+									.replace("%merchName%", result[i].merchName)
+									.replace("%page%", result[i].page)
+                                    .replace("%price%", result[i].price)
+                                    .replace("%rowId%", result[i].rowId));
+                                commonObj.loadCanvas();
+                            }
+						}
+                        pagenumberGlobla++;
+                	}
 				},
 				beforeSend: function(){
 					$(".loaddiv").show();

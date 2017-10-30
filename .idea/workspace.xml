@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="411dff5b-89c9-4fd4-8259-8b411ea5b45c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/views/js/commonObj.js" afterPath="$PROJECT_DIR$/script/views/js/commonObj.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/test.json" afterPath="$PROJECT_DIR$/script/test.json" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,20 +67,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script/test.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="49" />
+            <state relative-caret-position="186">
+              <caret line="94" column="8" lean-forward="false" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commonObj.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="commonObj.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/views/js/commonObj.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
+            <state relative-caret-position="-264">
               <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
               <folding>
                 <marker date="1509373395000" expanded="true" signature="60:402" ph="..." />
@@ -153,12 +153,12 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pices.html" />
-        <option value="$PROJECT_DIR$/script/test.json" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/script/views/enterjs/mainconfig.js" />
         <option value="$PROJECT_DIR$/index1.html" />
         <option value="$PROJECT_DIR$/script/views/js/commonObj.js" />
+        <option value="$PROJECT_DIR$/script/test.json" />
       </list>
     </option>
   </component>
@@ -754,12 +754,12 @@
       <workItem from="1509346448136" duration="2493000" />
       <workItem from="1509348971413" duration="7240000" />
       <workItem from="1509356814112" duration="2764000" />
-      <workItem from="1509359736383" duration="7874000" />
+      <workItem from="1509359736383" duration="7996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20371000" />
+    <option name="totallyTimeSpent" value="20493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="23" width="1225" height="777" extended-state="6" />
@@ -984,14 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
@@ -1021,7 +1013,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script/views/js/commonObj.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="-264">
           <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
           <folding>
             <marker date="1509373395000" expanded="true" signature="60:402" ph="..." />
@@ -1036,6 +1028,14 @@
             <marker date="1509373395000" expanded="true" signature="5754:5760" ph="&amp;nbsp;" />
             <marker date="1509373395000" expanded="true" signature="5766:5772" ph="&amp;nbsp;" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="94" column="8" lean-forward="false" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -3,7 +3,7 @@ contentMerch = '<meta charset="UTF-8">\
     <div class="fl">\
     <p class="ptitle">%merchName%</p>\
     <canvas data-src="%coverPath%" ></canvas>\
-	<div style="bottom:20px;position: relative;background-color: white">价格:<span style="color: #ff7301;background-color: white">%price%￥</span></div>\
+	<div style="bottom:20px;position: relative;">价格:<span style="color: #ff7301;background-color: white">%price%￥</span></div>\
     <p class="bl" style="bottom:18px;position: relative"><span class="green" >%rowId%</span></p>\
     </div>\
     </a>';

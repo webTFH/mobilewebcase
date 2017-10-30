@@ -25,21 +25,14 @@ define(function(require){
 		getData: function(pagenumber){
 			$.ajax({
 				type:"get",
-				url:"/mobileweb/script/test.json",
-				data: {
-					page:commonObj.pagenumber,
-					row:commonObj.pagesize
-				},
-				dataType: "json",
+				url:"pices.html",
+				dataType: "text",
 				success: function(result){
 					$(".loaddiv").hide();
-					if(result.length > 0){
+					for(var i=0;i<10;i++){
 						commonObj.ajaxstatus = true;
 						commonObj.insertDiv(result);
 						commonObj.loadCanvas();
-					}else{
-						$("#pagenumlength").val("0");
-						alert('暂无数据');
 					}
 				},
 				beforeSend: function(){
@@ -50,25 +43,8 @@ define(function(require){
 				}
 			});
 		},
-		insertDiv: function(json){
+		insertDiv: function(html){
 			var $mainDiv = $("#scrollAdd");
-			var html = "";
-			var showlength = commonObj.pagesize;
-			if(json.length < commonObj.pagesize){
-				showlength = json.length;
-			}
-			for(var i = 0; i < showlength; i++){
-				html += '<li><a href="info.html">'+
-					'<div class="border60"></div>'+
-					'<div class="leftimages fl">'+
-						'<canvas data-src="images/product/product1.jpg" ></canvas>'+
-					'</div>'+
-					'<div class="rightcontent fr">'+
-						'<p class="ptitle">龙夫山泉矿泉水</p>'+
-						'<p class="pdescription">简介这里简介这里简介这里简介这里简介这里简介这里简介这里简介介这里简介</p>'+
-						'<p class="price">价格: <span class="green">￥320.00</span></p>'+
-					'</div></a></li>';
-			}
 			$mainDiv.append(html);
 		},
 		scrollHandler:function(){

@@ -1,5 +1,5 @@
 contentMerch = '<meta charset="UTF-8">\
-    <a href="%page%" class="item">\
+    <a href="%page%">\
     <div class="fl">\
     <p class="ptitle">%merchName%</p>\
     <canvas data-src="%coverPath%" ></canvas>\

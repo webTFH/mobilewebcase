@@ -81,7 +81,7 @@ require(['jquery','swiper','commonObj','diqu'],function($,swiper,commonObj,diqu)
                 $(".null_order").show();
         };
 
-        //commonObj.getData(1);
+        commonObj.getData(1);
 
     })
 })

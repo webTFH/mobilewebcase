@@ -35,7 +35,7 @@ define(function(require){
 		getData: function(pagenumber){
 			$.ajax({
 				type:"get",
-				url:"/mobilewebcase/script/test.json",
+				url:"script/test.json",
 				dataType: "json",
                 data: {
                     page:pagenumberGlobla,

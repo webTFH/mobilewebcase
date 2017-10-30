@@ -31,7 +31,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit; }
 
 .fl {
-  float: left; }
+  width: 100%;
+  text-align: center;
+  float: left;
+  }
 
 .fr {
   float: right; }
@@ -231,15 +234,18 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   margin: 0px auto 5px auto; }
   .productul ul {
-    width: 100%; }
+    width: 100%;}
   .productul li {
-    min-height: 125px;
+    min-height: 145px;
     overflow: hidden;
-    background-color: #fff;
+    background-color: #eaeaea;
     -webkit-box-shadow: 0 0 5px #ccc;
     -moz-box-shadow: 0 0 5px #ccc; }
     .productul li a {
-      width: 100%;
+      border: 2px solid white;
+      float: left;
+      width: 32%;
+      height: 145px;
       display: block;
       overflow: hidden; }
       .productul li a .triangle-topleft {
@@ -271,11 +277,12 @@ h1, h2, h3, h4, h5, h6 {
         padding-top: 5px;
         padding-left: 10px;
         cursor: pointer; }
-      .productul li a .leftimages {
-        width: 100px;
-        height: 100px;
-        margin-top: -35px; }
-        .productul li a .leftimages canvas {
+      .productul li a  {
+        width: 32%;
+        height: 145px;
+        text-align: center;
+        }
+        .productul li a  canvas {
           width: 100px;
           min-height: 100px;
           background: #fff url("../images/loading.gif") center center no-repeat;
@@ -283,11 +290,10 @@ h1, h2, h3, h4, h5, h6 {
       .productul li a .rightcontent {
         width: 64%;
         width: calc(100% - 100px);
-        margin-top: -34px; }
+         }
         .productul li a .rightcontent .ptitle {
           font-size: 16px;
-          color: #4a534e;
-          font-weight: bold; }
+          color: #4a534e; }
         .productul li a .rightcontent .pdescription {
           font-size: 13px;
           color: #999;
@@ -315,18 +321,19 @@ h1, h2, h3, h4, h5, h6 {
     #productinfo ul .buyproduct {
       border-top-left-radius: 1rem;
       border-top-right-radius: 1rem; }
-      #productinfo ul .buyproduct .leftimages {
+      #productinfo ul .buyproduct  {
         width: 30%;
         height: 10rem;
         margin-top: 0.5rem;
         min-width: 10rem; }
-        #productinfo ul .buyproduct .leftimages img {
+        #productinfo ul .buyproduct  img {
           width: 10rem;
           border: 0; }
       #productinfo ul .buyproduct .productcontent {
         width: 58%;
         margin-top: 1rem; }
         #productinfo ul .buyproduct .productcontent .ptitle {
+          width:100px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;
           font-size: 1.6rem;
           color: #4a534e;
           font-weight: bold;
@@ -895,3 +902,19 @@ h1, h2, h3, h4, h5, h6 {
             margin-left: 20px; }
 
 /*# sourceMappingURL=style.css.map */
+.bl{
+  margin: 0px auto;
+  background: black;
+  width: 60%;
+  height: 20px;
+  font-size: 16px;
+  border-radius: 7px;
+}
+.bl span{
+  color: white;
+}
+.ptitle{
+  margin: 0px auto;
+  text-align: center;
+  width:100px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;
+}

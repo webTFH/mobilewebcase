@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/mobilewebcase.iml" filepath="$PROJECT_DIR$/.idea/mobilewebcase.iml" />
       <module fileurl="file://$PROJECT_DIR$/mobilewebcase.iml" filepath="$PROJECT_DIR$/mobilewebcase.iml" />
     </modules>
   </component>

@@ -5,7 +5,7 @@ contentMerch = '<meta charset="UTF-8">\
     <canvas data-src="%coverPath%" ></canvas>\
 	<div style="bottom:20px;position: relative;">价格:<span style="color: #ff7301;background-color: white">%price%￥</span></div>\
     <p class="bl" style="bottom:18px;position: relative">\
-    	<span class="green" style="color: #e54144">货道</span>\
+    	<span class="green" style="color: #cc7832">货道</span>\
     	<span class="green" >%rowId%</span></p>\
     </div>\
     </a>';

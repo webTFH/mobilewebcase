@@ -1,6 +1,7 @@
 @charset "UTF-8";
-html {overflow:-moz-scrollbars-vertical;}
-html {min-height:101%;}
+#productul li {
+  min-height:101%;
+}
 body, button, select, textarea, input, label, option, fieldset, legend {
   font-family: 微软雅黑E\8f6f\96c5\9ed1,Tahoma,Verdana;
   font-size: 12px;

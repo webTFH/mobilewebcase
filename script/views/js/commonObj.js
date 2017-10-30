@@ -45,6 +45,7 @@ define(function(require){
                     if (result.length > 0) {
 						$(".loaddiv").hide();
 						for (var i = commonObj.pagesize*pagenumberGlobla; i < commonObj.pagesize*(pagenumberGlobla+1); i++) {
+							console.info("load");
 							if(i < result.length) {
                                 commonObj.ajaxstatus = true;
                                 commonObj.insertDiv(contentMerch.replace("%coverPath%", result[i].coverPath)

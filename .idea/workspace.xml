@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="411dff5b-89c9-4fd4-8259-8b411ea5b45c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/views/js/commonObj.js" afterPath="$PROJECT_DIR$/script/views/js/commonObj.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +25,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -80,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commonObj.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="commonObj.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/views/js/commonObj.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="49" />
+            <state relative-caret-position="200">
+              <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
               <folding>
                 <marker date="1509374225000" expanded="true" signature="60:468" ph="..." />
                 <marker date="1509374225000" expanded="true" signature="60:479" ph="..." />
@@ -159,12 +159,12 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pices.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/script/views/enterjs/mainconfig.js" />
         <option value="$PROJECT_DIR$/script/test.json" />
         <option value="$PROJECT_DIR$/index1.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/script/views/js/commonObj.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -760,12 +760,12 @@
       <workItem from="1509346448136" duration="2493000" />
       <workItem from="1509348971413" duration="7240000" />
       <workItem from="1509356814112" duration="2764000" />
-      <workItem from="1509359736383" duration="8703000" />
+      <workItem from="1509359736383" duration="8832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21200000" />
+    <option name="totallyTimeSpent" value="21329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="23" width="1225" height="777" extended-state="6" />
@@ -1015,19 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script/test.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
@@ -1038,8 +1025,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script/views/js/commonObj.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="49" />
+        <state relative-caret-position="200">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding>
             <marker date="1509374225000" expanded="true" signature="60:468" ph="..." />
             <marker date="1509374225000" expanded="true" signature="60:479" ph="..." />
@@ -1055,6 +1042,19 @@
             <marker date="1509374225000" expanded="true" signature="5808:5814" ph="&amp;nbsp;" />
             <marker date="1509374225000" expanded="true" signature="5820:5826" ph="&amp;nbsp;" />
             <marker date="1509374225000" expanded="true" signature="5832:5838" ph="&amp;nbsp;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

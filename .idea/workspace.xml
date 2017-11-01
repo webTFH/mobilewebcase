@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="411dff5b-89c9-4fd4-8259-8b411ea5b45c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/index.json" afterPath="$PROJECT_DIR$/script/index.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/vm.json" afterPath="$PROJECT_DIR$/script/vm.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/views/enterjs/mainconfig.js" afterPath="$PROJECT_DIR$/script/views/enterjs/mainconfig.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +27,7 @@
       <file leaf-file-name="index.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/index.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="-436">
               <caret line="158" column="108" lean-forward="false" selection-start-line="158" selection-start-column="108" selection-end-line="158" selection-end-column="108" />
               <folding />
             </state>
@@ -46,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            <state relative-caret-position="-44">
+              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#marquee#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -60,6 +58,16 @@
                 <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainconfig.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/script/views/enterjs/mainconfig.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1526">
+              <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,7 +126,6 @@
       <list>
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/pices.html" />
-        <option value="$PROJECT_DIR$/script/views/enterjs/mainconfig.js" />
         <option value="$PROJECT_DIR$/script/test.json" />
         <option value="$PROJECT_DIR$/index1.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
@@ -130,6 +137,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/script/vm.json" />
         <option value="$PROJECT_DIR$/script/index.json" />
+        <option value="$PROJECT_DIR$/script/views/enterjs/mainconfig.js" />
       </list>
     </option>
   </component>
@@ -183,6 +191,32 @@
               <item name="mobilewebcase" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobilewebcase" type="462c0819:PsiDirectoryNode" />
               <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobilewebcase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobilewebcase" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobilewebcase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobilewebcase" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobilewebcase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobilewebcase" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="enterjs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobilewebcase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobilewebcase" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -636,7 +670,7 @@
       <workItem from="1509439127013" duration="14033000" />
       <workItem from="1509520394972" duration="2091000" />
       <workItem from="1509537530767" duration="397000" />
-      <workItem from="1509537943827" duration="2447000" />
+      <workItem from="1509537943827" duration="2913000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1509375249738</created>
@@ -673,11 +707,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509522135316</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="s">
+      <created>1509540399411</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1509540399411</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44188000" />
+    <option name="totallyTimeSpent" value="44654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1064,13 +1105,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/info.html" />
     <entry file="file://$PROJECT_DIR$/vicem.html" />
-    <entry file="file://$PROJECT_DIR$/script/views/enterjs/mainconfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="70" column="1" lean-forward="false" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1117,7 +1151,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script/index.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="-436">
           <caret line="158" column="108" lean-forward="false" selection-start-line="158" selection-start-column="108" selection-end-line="158" selection-end-column="108" />
           <folding />
         </state>
@@ -1125,8 +1159,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        <state relative-caret-position="-44">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#marquee#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1136,6 +1170,14 @@
             <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/views/enterjs/mainconfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1526">
+          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

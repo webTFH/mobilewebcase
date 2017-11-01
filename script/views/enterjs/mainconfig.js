@@ -11,6 +11,7 @@ require(['jquery','swiper','commonObj','diqu'],function($,swiper,commonObj,diqu)
 	$(function(){
         var topSlider=new Swiper('#topSlider', {
             slidesPerView: 1,
+            resistanceRatio : 0,
             centeredSlides: true,
             autoplay: 1,
             freeMode:false,

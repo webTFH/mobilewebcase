@@ -98,7 +98,7 @@ require(['jquery','swiper','commonObj','diqu'],function($,swiper,commonObj,diqu)
                 commonObj.getData(1);
             }
         });
-        swiper.slideTo(1, 1000, true);
+        //swiper.slideTo(1, 1000, true);
 
     })
 })

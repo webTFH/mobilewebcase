@@ -20,6 +20,7 @@ require(['jquery','swiper','commonObj','diqu'],function($,swiper,commonObj,diqu)
         commonObj.loadCanvas();
         $(window).scroll(commonObj.scrollHandler);
         $("#productul").on("touchmove",commonObj.scrollHandler);
+        $("#productul1").on("touchmove",commonObj.scrollHandler);
         $(".reduce").on("click",commonObj.reducenums);
         $(".add").on("click",commonObj.addnums);
         $("#addcart").on("click",commonObj.addcart);
@@ -90,7 +91,7 @@ require(['jquery','swiper','commonObj','diqu'],function($,swiper,commonObj,diqu)
                 commonObj.getData(1);
             }
         });
-
+        swiper.slideTo(1, 1000, true);
 
     })
 })

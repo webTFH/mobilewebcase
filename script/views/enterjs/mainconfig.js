@@ -86,8 +86,16 @@ require(['jquery','swiper','commonObj','diqu'],function($,swiper,commonObj,diqu)
         commonObj.getData(1);
         swiper = new Swiper('.swiper-container', {
             autoHeight: true, //enable auto height
-            onSlideChangeEnd:function(swiper){
+            onSlideChangeEnd:function(swiper) {
                 currentIndex = swiper.activeIndex;
+                if (currentIndex == 0) {
+                    $("#n_0").css("border-bottom", "1px solid black");
+                    $("#n_1").css("border-bottom", "");
+                }else if(currentIndex == 1){
+                    $("#n_1").css("border-bottom", "1px solid black");
+                    $("#n_0").css("border-bottom", "");
+                }
+
                 commonObj.getData(1);
             }
         });

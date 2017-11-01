@@ -10,7 +10,7 @@ currentIndex = 0;
 require(['jquery','swiper','commonObj','diqu'],function($,swiper,commonObj,diqu){
 	$(function(){
         var topSlider=new Swiper('#topSlider', {
-            slidesPerView: 1,
+            slidesPerView: 0,
             resistanceRatio : 0,
             centeredSlides: true,
             autoplay: 3100,

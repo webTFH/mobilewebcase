@@ -4,7 +4,6 @@ require.config({
 		swiper:"../../plugs/swiper.min",
         diqu:"../js/diqu2",
         commonObj:"../js/commonObj"
-
 	}
 })
 currentIndex = 0;
@@ -89,10 +88,10 @@ require(['jquery','swiper','commonObj','diqu'],function($,swiper,commonObj,diqu)
             onSlideChangeEnd:function(swiper) {
                 currentIndex = swiper.activeIndex;
                 if (currentIndex == 0) {
-                    $("#n_0").css("border-bottom", "1px solid black");
+                    $("#n_0").css("border-bottom", "2px solid #ccc");
                     $("#n_1").css("border-bottom", "");
                 }else if(currentIndex == 1){
-                    $("#n_1").css("border-bottom", "1px solid black");
+                    $("#n_1").css("border-bottom", "2px solid #ccc");
                     $("#n_0").css("border-bottom", "");
                 }
 

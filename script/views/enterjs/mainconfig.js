@@ -12,9 +12,11 @@ require(['jquery','swiper','commonObj','diqu'],function($,swiper,commonObj,diqu)
         var topSlider=new Swiper('#topSlider', {
             slidesPerView: 1,
             centeredSlides: true,
-            autoplay: 3000,
-            loop: true,
-            autoplayDisableOnInteraction: true
+            autoplay: 300,
+            freeMode:false,
+            speed:20,
+            loop: false,
+            autoplayDisableOnInteraction: false
         });
         commonObj.loadCanvas();
         $(window).scroll(commonObj.scrollHandler);

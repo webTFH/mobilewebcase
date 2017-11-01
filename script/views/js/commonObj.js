@@ -42,7 +42,7 @@ define(function(require){
         },
         getData: function(pagenumber){
         	var url;
-            if(window.location.href.indexOf("index.html")==-1){
+            if(window.location.href.indexOf("index.html")!=-1){
                 url = "script/vm.json";
                 pagenumberGlobla = pagenumberGlobla1;
                 pagenumberGlobla1++;

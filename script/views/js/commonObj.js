@@ -17,7 +17,7 @@ pagenumberGlobla1 = 0;
 define(function(require){
     return commonObj = {
         ajaxstatus: true,
-        pagesize:12,
+        pagesize:60,
         loadCanvas:function(){
         	var productul;
             productul = $("#productul");

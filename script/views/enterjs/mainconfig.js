@@ -1,13 +1,12 @@
 require.config({
 	paths:{
-		jquery:"../../libs/jquery.min",
-		swiper:"../../plugs/swiper.min",
-        diqu:"../js/diqu2",
-        commonObj:"../js/commonObj"
+		jquery:"http://oybmjmdba.bkt.clouddn.com/jquery.min",
+		swiper:"http://oybmjmdba.bkt.clouddn.com/swiper.min",
+        commonObj:"http://oybmjmdba.bkt.clouddn.com/commonObj"
 	}
 })
 currentIndex = 0;
-require(['jquery','swiper','commonObj','diqu'],function($,swiper,commonObj,diqu){
+require(['jquery','swiper','commonObj'],function($,swiper,commonObj){
 	$(function(){
         var topSlider=new Swiper('#topSlider', {
             slidesPerView: 0,

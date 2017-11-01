@@ -20,11 +20,7 @@ define(function(require){
         pagesize:12,
         loadCanvas:function(){
         	var productul;
-            if(currentIndex==1){
-                productul = $("#productul1");
-            }else{
-                productul = $("#productul");
-            }
+            productul = $("#productul");
             var imglength = productul.find("canvas").length;
             if (imglength >0 ){
                 productul.find("canvas").each(function(){
@@ -46,7 +42,7 @@ define(function(require){
         },
         getData: function(pagenumber){
         	var url;
-            if(currentIndex==1){
+            if(window.location.href.indexOf("index.html")==-1){
                 url = "script/vm.json";
                 pagenumberGlobla = pagenumberGlobla1;
                 pagenumberGlobla1++;
@@ -89,11 +85,7 @@ define(function(require){
         },
         insertDiv: function(html){
             var mainDiv;
-            if(currentIndex==1 || currentIndex==-1){
-				mainDiv = $("#scrollAddvm");
-            }else{
-                mainDiv = $("#scrollAdd");
-            }
+            mainDiv = $("#scrollAdd");
             mainDiv.append(html);
         },
         scrollHandler:function(){

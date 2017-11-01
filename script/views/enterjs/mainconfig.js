@@ -7,6 +7,7 @@ require.config({
 
 	}
 })
+currentIndex = 0;
 require(['jquery','swiper','commonObj','diqu'],function($,swiper,commonObj,diqu){
 	$(function(){
         var topSlider=new Swiper('#topSlider', {
@@ -82,6 +83,14 @@ require(['jquery','swiper','commonObj','diqu'],function($,swiper,commonObj,diqu)
         };
 
         commonObj.getData(1);
+        swiper = new Swiper('.swiper-container', {
+            autoHeight: true, //enable auto height
+            onSlideChangeEnd:function(swiper){
+                currentIndex = swiper.activeIndex;
+                commonObj.getData(1);
+            }
+        });
+
 
     })
 })

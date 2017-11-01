@@ -13,16 +13,14 @@ require(['jquery','swiper','commonObj','diqu'],function($,swiper,commonObj,diqu)
             slidesPerView: 1,
             resistanceRatio : 0,
             centeredSlides: true,
-            autoplay: 1,
-            freeMode:false,
-            speed:20,
-            loop: false,
+            autoplay: 3100,
+            freeMode:true,
+            loop: true,
             autoplayDisableOnInteraction: true
         });
         commonObj.loadCanvas();
         $(window).scroll(commonObj.scrollHandler);
         $("#productul").on("touchmove",commonObj.scrollHandler);
-        $("#productul1").on("touchmove",commonObj.scrollHandler);
         $(".reduce").on("click",commonObj.reducenums);
         $(".add").on("click",commonObj.addnums);
         $("#addcart").on("click",commonObj.addcart);
@@ -86,16 +84,5 @@ require(['jquery','swiper','commonObj','diqu'],function($,swiper,commonObj,diqu)
         };
 
         commonObj.getData(1);
-        $("#a_1").click(function () {
-            console.info("xxx1");
-            $("#n_1").css("border-bottom","1px solid black")
-            $("#n_0").css("border-bottom","")
-        });
-        $("#a_0").click(function () {
-            console.info("xxx0");
-            $("#n_0").css("border-bottom","1px soild black")
-            $("#n_1").css("border-bottom","")
-        })
-
     })
 })

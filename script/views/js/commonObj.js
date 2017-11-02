@@ -43,7 +43,7 @@ define(function(require){
         getData: function(pagenumber){
         	var url;
             if(window.location.href.indexOf("vm.html")!=-1){
-                url = "http://oybmjmdba.bkt.clouddn.com/vm.json";
+                url = "http://oybmjmdba.bkt.clouddn.com/vm.json?v=1";
                 pagenumberGlobla = pagenumberGlobla1;
                 pagenumberGlobla1++;
             }else{

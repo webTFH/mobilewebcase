@@ -17,7 +17,7 @@ pagenumberGlobla1 = 0;
 define(function(require){
     return commonObj = {
         ajaxstatus: true,
-        pagesize:60,
+        pagesize:20,
         loadCanvas:function(){
         	var productul;
             productul = $("#productul");
@@ -43,11 +43,11 @@ define(function(require){
         getData: function(pagenumber){
         	var url;
             if(window.location.href.indexOf("vm.html")!=-1){
-                url = "http://oybmjmdba.bkt.clouddn.com/vm.json?v=1";
+                url = "http://oybmjmdba.bkt.clouddn.com/vm.json?v=2";
                 pagenumberGlobla = pagenumberGlobla1;
                 pagenumberGlobla1++;
             }else{
-                url = "http://oybmjmdba.bkt.clouddn.com/index.json";
+                url = "http://oybmjmdba.bkt.clouddn.com/index.json?v=2";
                 pagenumberGlobla = pagenumberGlobla0;
                 pagenumberGlobla0++;
             }

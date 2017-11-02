@@ -2,7 +2,7 @@ require.config({
 	paths:{
 		jquery:"http://oybmjmdba.bkt.clouddn.com/jquery.min",
 		swiper:"http://oybmjmdba.bkt.clouddn.com/swiper.min",
-        commonObj:"http://oybmjmdba.bkt.clouddn.com/commonObj?v=3"
+        commonObj:"http://oybmjmdba.bkt.clouddn.com/commonObj?v=5"
 	}
 })
 currentIndex = 0;
